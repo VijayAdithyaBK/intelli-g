@@ -116,7 +116,7 @@ You don't need to be a coder. Just follow these steps!
 > [!TIP]
 > **Recommendation:** Set the interval to **1 hour**, **6 hours**, or **12 hours**.
 >
-> While you *can* run it every 15 minutes, we recommend a longer interval because:
+> While you *can* run it every 15 minutes, it is recommended to use a longer interval because:
 > 1.  **Quota Safety:** Free Google accounts have a limited amount of script runtime per day. Running constantly can max this out.
 > 2.  **Efficiency:** Batching executions ensures your "Inbox Brain" runs reliably without hitting API rate limits or unnecessary checks.
 
@@ -125,7 +125,7 @@ You don't need to be a coder. Just follow these steps!
 ## 🤖 How It Works Under the Hood
 
 ### The Prompt
-We use a structured prompt to tell Gemini: *"You are a data extractor. Don't summarize, just extract facts."*
+The script uses a structured prompt to tell Gemini: *"You are a data extractor. Don't summarize, just extract facts."*
 
 ### The Routing
 Common logic handles where data goes based on the `Context / Category` determined by AI:
@@ -140,7 +140,7 @@ Common logic handles where data goes based on the `Context / Category` determine
 
 ## 🗺️ Roadmap
 
-We have big plans for **Intelli-g**! Here is what we are working on:
+I have big plans for **Intelli-g**! Here is what I am working on:
 
 - [ ] **Better Classifier:** Move from regex/keyword routing to LLM-based routing.
 - [ ] **Multi-Model Support:** Add support for OpenAI GPT-4o or Claude 3.5.
@@ -193,6 +193,9 @@ Distributed under the MIT License. This project is open for anyone to use, modif
 ## 💖 Support
 
 If this project saved you time, please give it a ⭐️ on GitHub! It helps others find the project.
+
+
+---
 
 <p align="center">
   <i>⚡ Crafted by Vijay Adithya B K</i>
