@@ -112,6 +112,13 @@ You don't need to be a coder. Just follow these steps!
     -   Interval: `Every 15 minutes` (or whatever you prefer).
 4.  Save.
 
+> [!TIP]
+> **Recommendation:** Set the interval to **1 hour**, **6 hours**, or **12 hours**.
+>
+> While you *can* run it every 15 minutes, we recommend a longer interval because:
+> 1.  **Quota Safety:** Free Google accounts have a limited amount of script runtime per day. Running constantly can max this out.
+> 2.  **Efficiency:** Batching executions ensures your "Inbox Brain" runs reliably without hitting API rate limits or unnecessary checks.
+
 ---
 
 ## 🤖 How It Works Under the Hood
