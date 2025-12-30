@@ -3,7 +3,8 @@
 ![platform](https://img.shields.io/badge/platform-Google%20Apps%20Script-4285F4?style=flat-square&logo=google)
 ![api](https://img.shields.io/badge/AI-Gemini_Flash-8E44AD?style=flat-square&logo=google-gemini)
 ![license](https://img.shields.io/badge/license-MIT-green?style=flat-square)
-![cost](https://img.shields.io/badge/cost-100%25%20Free-success?style=flat-square)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
+![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
 > **Turn your messy inbox into a structured database.** Automatically extract facts, dates, and action items from emails and log them into Google Sheets using the power of Google Gemini.
 
@@ -137,6 +138,19 @@ Common logic handles where data goes based on the `Context / Category` determine
 
 ---
 
+## 🗺️ Roadmap
+
+We have big plans for **Intelli-g**! Here is what we are working on:
+
+- [ ] **Better Classifier:** Move from regex/keyword routing to LLM-based routing.
+- [ ] **Multi-Model Support:** Add support for OpenAI GPT-4o or Claude 3.5.
+- [ ] **Setup UI:** A simple HTML interface for easier configuration (no more script properties!).
+- [ ] **Attachments:** OCR support for PDF invoices and receipts.
+
+See the [open issues](https://github.com/VijayAdithyaBK/intelli-g/issues) for a full list of proposed features (and known issues).
+
+---
+
 ## ❓ FAQ
 
 **Q: Is this free?**
@@ -152,21 +166,33 @@ A: **Yes.** The script runs in *your* Google Cloud account. Data goes from *your
 
 ## 🤝 Contributing
 
-Got a better prompt? A smarter classifier? PRs are welcome! 
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-1.  Fork it 🍴
-2.  Create your feature branch (`git checkout -b feature/amazing-feature`)
-3.  Commit your changes (`git commit -m 'Add some amazing feature'`)
-4.  Push to the branch (`git push origin feature/amazing-feature`)
-5.  Open a Pull Request
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+
+1.  **Fork the Project**
+2.  **Create your Feature Branch** (`git checkout -b feature/AmazingFeature`)
+3.  **Commit your Changes** (`git commit -m 'Add some AmazingFeature'`)
+4.  **Push to the Branch** (`git push origin feature/AmazingFeature`)
+5.  **Open a Pull Request**
+
+Don't forget to give the project a star! Thanks again!
+
+### 🐛 Reporting Bugs
+
+Found a bug? Please open an [issue](https://github.com/VijayAdithyaBK/intelli-g/issues) and describe the problem, including which email caused the crash (redacted, of course!).
 
 ---
 
 ## 📜 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. This project is open for anyone to use, modify, and distribute. See `LICENSE` for more information.
 
 ---
+
+## 💖 Support
+
+If this project saved you time, please give it a ⭐️ on GitHub! It helps others find the project.
 
 <p align="center">
   <i>⚡ Crafted by Vijay Adithya B K</i>
